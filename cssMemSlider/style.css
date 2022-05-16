@@ -47,8 +47,8 @@ p {
   transition: all 0.4s ease;
 }
 
-.bar:hover {
-  transform: scale(1.2);
+.bar:hover .btn {
+  border: 2px solid #000;
 }
 
 input[name="r"] {
@@ -104,12 +104,13 @@ input[name="r"] {
   width: 25%;
   color: #fff;
   padding-left: 5px;
-  transition: all 0.3s ease;
+  font-size: 22px;
+  transition: all 0.3s linear;
 }
 
 .text__hidder {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
   padding: 10px 0;
 }
@@ -138,11 +139,13 @@ input[name="r"] {
   height: 15px;
   border-radius: 50%;
   background-color: #ddd;
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 767px) {
   .text__hidder {
     grid-template-columns: 1fr;
+    padding: 0;
   }
 
   .text__hidden {
@@ -151,5 +154,11 @@ input[name="r"] {
 
   .navigation {
     justify-content: center;
+    margin: 10px 0;
+  }
+
+  .wrap__text p {
+    font-size: 18px;
+    padding-left: 0;
   }
 }
