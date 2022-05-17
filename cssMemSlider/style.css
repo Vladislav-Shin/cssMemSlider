@@ -16,16 +16,16 @@ p {
 }
 
 .slider {
-  border-radius: 10px;
+  border-radius: 0.6rem;
   overflow: hidden;
 }
 
 .main {
-  padding: 30px;
+  padding: 1.8rem;
 }
 
 .content-g {
-  max-width: 800px;
+  max-width: 50rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -33,22 +33,22 @@ p {
 .navigation {
   display: flex;
   justify-content: end;
-  gap: 10px;
+  gap: 0.6rem;
 }
 
 .bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30px;
-  width: 30px;
+  height: 1.8rem;
+  width: 1.8rem;
   cursor: pointer;
   border-radius: 50%;
   transition: all 0.4s ease;
 }
 
 .bar:hover .btn {
-  border: 2px solid #000;
+  border: 0.1rem solid #000;
 }
 
 input[name="r"] {
@@ -64,7 +64,7 @@ input[name="r"] {
 
 .slide {
   width: 25%;
-  max-height: 500px;
+  max-height: 31rem;
   background: #fff;
   transition: all 0.6s ease;
 }
@@ -103,8 +103,8 @@ input[name="r"] {
 .wrap__text p {
   width: 25%;
   color: #fff;
-  padding-left: 5px;
-  font-size: 22px;
+  padding-left: 0.3rem;
+  font-size: 1.3rem;
   transition: all 0.3s linear;
 }
 
@@ -112,7 +112,7 @@ input[name="r"] {
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
-  padding: 10px 0;
+  padding: 0.6rem 0;
 }
 
 .text__hidden {
@@ -135,8 +135,8 @@ input[name="r"] {
 
 .btn {
   display: block;
-  width: 15px;
-  height: 15px;
+  width: 1rem;
+  height: 1rem;
   border-radius: 50%;
   background-color: #ddd;
   transition: all 0.3s ease;
@@ -154,11 +154,11 @@ input[name="r"] {
 
   .navigation {
     justify-content: center;
-    margin: 10px 0;
+    margin: 0.6rem 0;
   }
 
   .wrap__text p {
-    font-size: 18px;
+    font-size: 1.1rem;
     padding-left: 0;
   }
 }
